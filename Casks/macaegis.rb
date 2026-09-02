@@ -7,7 +7,7 @@ cask "macaegis" do
   desc "Pure native Swift Mac privacy vault, disk cleaner and deep uninstaller"
   homepage "https://github.com/meowvia/MacAegis"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "MacAegis.app"
 
