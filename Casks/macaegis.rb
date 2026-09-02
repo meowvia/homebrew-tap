@@ -1,8 +1,8 @@
 cask "macaegis" do
   version "0.2.0"
-  sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  sha256 "b341b707d294e24fda04b6d3bbb8d4f520700a2db478870086a8ba9bf942a2a0"
 
-  url "https://github.com/meowvia/MacAegis/releases/download/v#{version}/MacAegis-v#{version}.dmg"
+  url "https://github.com/meowvia/MacAegis/releases/download/v#{version}/MacAegis-v#{version}.zip"
   name "MacAegis"
   desc "Pure native Swift Mac privacy vault, disk cleaner and deep uninstaller"
   homepage "https://github.com/meowvia/MacAegis"
