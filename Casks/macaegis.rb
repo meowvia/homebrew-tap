@@ -1,6 +1,6 @@
 cask "macaegis" do
-  version "0.2.0"
-  sha256 "b341b707d294e24fda04b6d3bbb8d4f520700a2db478870086a8ba9bf942a2a0"
+  version "0.2.1"
+  sha256 "7da2d7c1de1744afc51a184ac675c41141d565149f52a28217ea5316d9c20782"
 
   url "https://github.com/meowvia/MacAegis/releases/download/v#{version}/MacAegis-v#{version}.zip"
   name "MacAegis"
