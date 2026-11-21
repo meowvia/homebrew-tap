@@ -1,33 +1,40 @@
-# Homebrew Tap for MacAegis
+# Homebrew Tap for meowvia
 
-Official Homebrew Tap for **[MacAegis](https://github.com/meowvia/MacAegis)** - Pure native Swift Mac privacy vault, disk cleaner, and deep uninstaller.
+Official Homebrew Tap for macOS native tools by **[meowvia](https://github.com/meowvia)**.
 
 ---
 
-## 🚀 Installation
+## 🎬 SilkPlayer
 
-### One-Line Install:
+Lightweight, native macOS media player built with Swift & Metal. Fast, private, and distraction-free viewing with Dolby Vision and VideoToolbox hardware acceleration.
+
+### Install
+```bash
+brew install meowvia/tap/silkplayer
+```
+Or:
+```bash
+brew tap meowvia/tap
+brew install --cask silkplayer
+```
+
+### Update
+```bash
+brew upgrade --cask silkplayer
+```
+
+---
+
+## 🛡️ MacAegis
+
+Pure native Swift Mac privacy vault, disk cleaner, and deep uninstaller.
+
+### Install
 ```bash
 brew install meowvia/tap/macaegis
 ```
 
-### Or Tap first:
+### Update
 ```bash
-brew tap meowvia/tap
-brew install --cask macaegis
-```
-
----
-
-## 🔄 Updating MacAegis
-```bash
-brew update
 brew upgrade --cask macaegis
-```
-
----
-
-## 🗑️ Uninstalling
-```bash
-brew uninstall --cask macaegis
 ```
