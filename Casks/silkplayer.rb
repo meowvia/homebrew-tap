@@ -1,6 +1,6 @@
 cask "silkplayer" do
-  version "2.1.0"
-  sha256 "bc5a9104dec70a2b3b9bff36efdfd3fe9623e92fb4709d8ca143256ecf549592"
+  version "2.1.1"
+  sha256 "6f1898d75846143a711c3e8ce79e8186c276504d56f8d48629640ce0853144b8"
 
   url "https://github.com/meowvia/SilkPlayer/releases/download/#{version}/SilkPlayer-#{version}-universal.dmg"
   name "SilkPlayer"
